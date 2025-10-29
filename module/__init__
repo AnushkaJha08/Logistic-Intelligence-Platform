@@ -1,0 +1,16 @@
+"""
+Modules package for the NexGen Predictive Delivery & Cost Intelligence Platform.
+
+This package contains:
+- data_loader: for importing all raw CSV datasets.
+- data_analysis: for merging, cleaning, and deriving metrics.
+- cost_analysis: for cost intelligence, leakage, and optimization insights.
+- delay_predictor: for predictive modeling of delivery delays.
+- visualizations: for generating interactive Streamlit dashboards.
+- utils: for helper functions like missing data handling.
+"""
+# modules package initializer
+__all__ = [
+    "data_loader", "data_analysis", "cost_intelligence",
+    "delay_predictor", "optimization", "visualization", "utils"
+]
